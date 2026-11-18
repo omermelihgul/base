@@ -9,5 +9,25 @@
     "directory": ".svelte-kit/cloudflare"
   },
   "workers_dev": false,
-  "preview_urls": false
+  "preview_urls": false,
+  "routes": [
+    {
+      "pattern": "atocem.com",
+      "custom_domain": true
+    },
+    {
+      "pattern": "preview.atocem.com",
+      "custom_domain": true,
+      "previews_enabled": true,
+      "enabled": false
+    }
+  ],
+  "vars": {
+    "ENVIRONMENT": "production"
+  },
+  "previews": {
+    "vars": {
+      "ENVIRONMENT": "preview"
+    }
+  }
 }
