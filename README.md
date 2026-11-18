@@ -1,5 +1,8 @@
 # sv
 
+[![Better Stack Badge](https://incidents.betterstack.com/status-badges/v1/monitor/313tg.svg)](https://incidents.betterstack.com/?utm_source=status_badge)
+[![License](https://img.shields.io/github/license/omermelihgul/base)](LICENSE)
+
 Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
 
 ## Creating a project
