@@ -1,7 +1,8 @@
 <script lang="ts">
   import { resolve } from '$app/paths';
+  import { localizeHref } from '#lib/paraglide/runtime.js';
 
-  const demos = [{ name: 'paraglide', href: resolve('/demo/paraglide') }];
+  const demos = [{ name: 'paraglide', href: localizeHref(resolve('/demo/paraglide')) }];
 </script>
 
 <!--
@@ -20,7 +21,7 @@
     {/each}
   </ul>
 
-  <a class="home" href={resolve('/')}>home</a>
+  <a class="home" href={localizeHref('/')}>home</a>
 </div>
 
 <style>
